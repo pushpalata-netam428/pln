@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* Custom CSS is the style sheet for adding custom styles to the web page. */
+.page {
+	background-color: linen;
+}
+
+.left-nav {
+	background-color: #8a6d3b8c;
+	width: 30%;
+	height: auto;
+	padding-bottom: 100%;
+    margin-bottom: -100%;
+    float: left;
+}
+
+#profile-img-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#profile-img {
+	border: 1px solid #ddd;
+	border-radius: 50px;
+	padding: 5px;
+	height: auto;
+	max-width: 100%;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.profile-desc {
+	color: white;
+	font-size: 26px;
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 10px;
+	padding-top: 30px;
+}
+
+.left-nav-menu {
+	margin-top: 80px;
+}
+
+.menu-items {
+	color: #ffffff;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.left-menu-icons {
+	max-width: 30px;
+}
+
+.left-menu-desc {
+	background-color: #ffffff;
+	width: 70%;
+    height: auto;
+    float: left;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
